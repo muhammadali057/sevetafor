@@ -1,0 +1,121 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.box {
+    width: 300px;
+    height: 700px;
+    border: 20px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 50px;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid black;
+    animation: box1 5s infinite;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid black;
+    animation: box2 10s infinite;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid black;
+    animation: box3 10s infinite;
+
+}
+
+@keyframes box1 {
+    0% {
+        background-color: white;
+    }
+
+    25% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: red;
+    }
+
+    75% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+@keyframes box2 {
+    0% {
+        background-color: white;
+    }
+
+    25% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: gold;
+    }
+
+    75% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
+
+@keyframes box3 {
+    0% {
+        background-color: white;
+    }
+
+    25% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: white;
+    }
+
+    75% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: white;
+    }
+}
